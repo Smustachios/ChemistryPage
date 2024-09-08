@@ -1,0 +1,159 @@
+:root{
+    margin: 0;
+    background-color: #1E201E;
+    color: #F4EBEE;
+}
+
+h1 {
+    padding: 80px 0;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+}
+
+#intro-area , #ingredients-area{
+    display: flex;
+    justify-content: center;
+}
+
+#red-bull-img {
+    width: 500px;
+}
+
+.intro-p-header {
+    color: #E21B4D;
+    font-size: 30px;
+}
+
+p {
+    width: 800px;
+    color: #F4EBEE;
+    align-self: center;
+    font-style: italic;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 1000;
+}
+
+#ingredients-area {
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.red-text {
+    color:#E21B4D;
+}
+
+#ingredients-img {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 400px;
+    border-radius: 2%;
+}
+
+.img-caption {
+    color: #F4EBEE;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.wider-p {
+    width: 1000px;
+    font-size: 22px;
+}
+
+.centered-p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 46px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+#elements-area {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-size: 34px;
+    text-align: center;
+    font-style: italic;
+    color: #E21B4D;
+}
+
+.electron-config{
+    text-align: center;
+}
+
+#element-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    border: 10px solid #F4EBEE;
+    border-radius: 5%;
+    background-color: #D9D4CE;
+    color: #E21B4D;
+}
+
+.electron-boxes, .box-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-group {
+    gap: 20px;
+}
+
+#electron-box {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #F4EBEE;
+    font-size: 25px;
+    text-align: center;
+}
+
+#box-name {
+    text-align: center;
+}
+
+#element-no {
+    align-self: flex-start;
+    padding: 10px 0 0 10px;
+    font-size: 30px;
+}
+
+#element-symbol {
+    margin-bottom: 20px;
+    align-self: center;
+    font-size: 130px;
+    font-weight: 1000;
+}
+
+#element-desc {
+    align-self: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#element-weight {
+    align-self: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
